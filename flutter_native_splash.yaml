@@ -1,0 +1,16 @@
+flutter_native_splash:
+  color: "#101110"
+  image: assets/images/logo_dark.png
+  branding: assets/images/rout.png
+  color_dark: "#101110"
+  image_dark: assets/images/logo_dark.png
+  branding_dark: assets/images/rout.png
+
+  android_12:
+    image: assets/images/logo_dark.png
+    icon_background_color: "#101110"
+    image_dark: assets/images/logo_dark.png
+    icon_background_color_dark: "#101110"
+    branding_dark: assets/images/rout.png
+    branding: assets/images/rout.png
+
