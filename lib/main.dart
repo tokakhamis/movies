@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:movies_app/home/home_screen.dart';
 
+import 'my_theme_data.dart';
+
 void main(){
   runApp(MyApp());
 }
@@ -9,6 +11,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      theme: MyThemeData.theme,
       debugShowCheckedModeBanner: false,
       initialRoute:HomeScreen.routName,
       routes: {
